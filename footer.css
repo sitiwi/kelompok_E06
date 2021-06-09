@@ -13,6 +13,7 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+
 ul {
 	list-style: none;
 
@@ -20,7 +21,7 @@ ul {
 
 .footer {
 	background-color: #004729;
-	padding: 70px 0;
+	padding: 70px 50px;
 }
 
 .footer-col {
@@ -86,12 +87,14 @@ ul {
 	background-color: #fff;
 }
 
+
 /*responsive*/
 @media(max-width: 1000px) {
 	.footer-col {
 		width: 50%;
 		margin-bottom: 30px;
 	}
+
 }
 
 @media(max-width: 670px) {
@@ -102,5 +105,7 @@ ul {
 	.footer-col ul li a {
 		font-size: 12px;	
 	}
+
+	
 
 }
