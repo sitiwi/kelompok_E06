@@ -162,10 +162,12 @@ div#shop .container{
 
 div#contact-us .container{
   width: 100%;
-  height: 810px;
+ /* height: 810px;*/
   padding: 100px 80px 100px 80px;
   margin: 0 auto;
 }
+
+
 
 div#contact-us {
     padding: 0 30px ;
@@ -174,11 +176,11 @@ div#contact-us {
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-   background-color: #FFE684;
-   /*background-image: url(Fruits-background.png);*/
+   /*background-color: #FFE684;*/
+   background-image: url(Fruits-background.png);
    background-size: cover;
    background-position: center;
-   filter: alpha(opacity=40);
+   z-index: 1;
 }
 
 
@@ -282,12 +284,18 @@ h2.info {
  color: #004729;
 }
 
-.fa, .fas {
+.fa, .fas{
     font-weight: 900;
+}
+
+.contact i.fa {
     padding-right: 15px;
 }
 
-/*responsive*/
+/*RESPONSIVE HOME & ABOUT US*/
+
+
+/*-----tablet--------------*/
 
 @media(max-width: 1000px) {
   div#home .container {
@@ -386,7 +394,7 @@ div#contact-us {
 
 }
 
-
+/*--------HANDPHONE--------------*/
 @media(max-width: 670px) {
 
  div#home .container {
@@ -449,16 +457,18 @@ div#contact-us {
     float: left;
     width: 50%;
   }
+  
+
   /*----CONTACT US RESPONSIVE HP----*/
  
   div#contact-us {
-    padding: 0 30px;
+    padding: 0;
     height: 900px;
   }
 
   div#contact-us .container {
     width: 100%;
-    padding: 20px;
+    padding: 20PX;
     margin: 0 auto;
   }
 
