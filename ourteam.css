@@ -1,0 +1,187 @@
+
+
+.card3 .container{
+  width: 100%;
+  height: 1400px;
+  padding: 100px 50px 100px 50px;
+  margin: 0 auto;
+  justify-content: center;
+  
+}
+
+.card3 .row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.another.row {
+    margin-bottom: 60px;
+    justify-content: center;
+    width: 66%;
+    margin-left: 133px;
+    display: float;
+}
+
+.team{
+  text-align: center;
+  padding: 30px 0;
+}
+.ourteam1{
+  font-size: 18px;
+  font-weight: semibold;
+  padding-bottom: 20px;
+  color: #AEB834;
+}
+
+.teamtext {
+  font-size: 36px;
+  font-weight: semibold;
+  padding-bottom: 20px;
+  color: #004729;
+}
+
+.col-md-4 {
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.ourteam{
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    animation: overlay;
+    
+}
+
+.ourteam:hover {
+  transition: all ease 0.5s;
+}
+   
+.ourteam img{
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+        
+.kelas{
+    font-size: 14px;
+    
+}
+
+.text-center {
+    margin-top: 10px;
+    color: black;
+    
+}
+
+.name a{
+    text-decoration: none;
+    font-size: 20px;
+    color:  #004729;
+} 
+
+.card3{
+  width: 100%;
+  /*background-color: whitesmoke;*/
+}
+
+/*------ RESPONSIVE OUR TEAM------*/
+
+@media(max-width: 1000px) {
+    .card3 .container {
+        width: 100%;
+        height: 1000px;
+        padding: 20px;
+        margin: 0 auto;
+      }
+
+    .ourteam1{
+        font-size: 16px;
+        font-weight: 400;
+        padding-bottom: 5px;
+    }
+
+    .teamtext{
+        font-size: 28px;
+        font-weight: 500;
+        padding-bottom: 5px;
+    }
+    .ourteam {
+        padding: 15px;
+    }
+    
+    .another.row {
+        display: flex;
+        width: 70%;
+        text-align: center;
+        }
+
+
+/*------ RESPONSIVE CONTACT US------*/
+    .contact {
+        font-size: 14px;
+        line-height: 3;
+    }
+
+    .card2 .text-box {
+        font-size: 12px;
+    }
+
+    .card2 textarea{
+        font-size: 12px;
+        min-height: 180px;
+    }
+    
+
+}
+
+
+@media(max-width: 670px) {
+
+    .card3 .row {
+        display: block;
+
+    }
+
+    .another.row {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .ourteam {
+        padding: 10px;
+        width: 50%;
+        margin: 0px 90px 35px 90px;
+    }
+
+    .name a {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        color: #004729;
+    }
+
+  .text-center {
+        margin-top: 0;
+        color: black;
+    }
+
+    .kelas {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .card3 {
+        height: 1800px;
+        
+    }
+    
+    
+}
